@@ -1,0 +1,23 @@
+{
+  "name": "vape-record",
+  "homepage": "https://github.com/tmaffia/vape-record-front-end",
+  "authors": [
+    "Tom Maffia <ta.maffia@gmail.com>"
+  ],
+  "description": "Web based vaping tracker. Tracks your vaping habits",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.2",
+    "bootstrap": "^3.3.6"
+  }
+}
