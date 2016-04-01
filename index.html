@@ -1,4 +1,5 @@
-<html>
+<!DOCTYPE html>
+<html ng-app="vape">
 	<head>
 		<!-- Latest compiled and minified CSS -->
 		<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
@@ -7,8 +8,8 @@
 		<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
 	</head>
 	<body>
-		<div class="container">
-			<h1>You have: {{.Vapes}} recorded vapes</h1>
+		<div class="container" ng-controller="RecordCountController as vapes">
+			<h1>You have: {{count}} recorded vapes</h1>
 
 			<a class="record-vape btn btn-primary">Record Vape</a>
 			<a class="delete-last-record btn btn-primary">Delete last Entry</a>
@@ -16,6 +17,7 @@
 
 		<script src="bower_components/jquery/dist/jquery.min.js"></script>
 		<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+		<script src="bower_components/angular/angular.js"></script>
 		<script src="js/vape.js"></script>
 	</body>
 </html>
